@@ -22,7 +22,7 @@ MC (Mode Count - counts changes in the graph), nodeSize, edgeSize,
 a list of all nodes in the graph and a list of nodes that each one contains its list of neighbors and each neighbor contains the weight of the edge between the neighbor and the node itself. 
 Both lists which mentioned above implemented in a data structure - HashMap.
 The first one implemented with a HashMap and the second with a HashMap in a HashMap.
-The reason for using HashMap is because operations like adding / removing / searching executes at time complexity O(1).
+The reason for using this data structure is because operations like adding / removing / searching executes at time complexity O(1).
 This class implements the methods:
 Default constructor, set & get methods, methods for adding / removing nodes and edges to / from the graph, a method for checking if there is an edge between 2 given nodes and a method for returning the weight of the edge between them if there is one. 
 
@@ -33,7 +33,7 @@ There is 1 field in this class called g which its type is weighted_graph interfa
 The class includes a set of operations applicable on the graph g - 
 initialization of graph g with a given graph, a getGraph method, a deep copy method, 
 a method which uses the [BFS algorithm](https://en.wikipedia.org/wiki/Breadth-first_search)  for the implementation of method which checks
-if the graph is connected or not, finding the shortest path in the graph between and a method for finding its length - using  [Dijkstra's algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm), a method which saves this graph to a given file name and a method which loads a graph to this graph algorithm.
+if the graph is connected or not, finding the shortest path in the graph between a given source and destination and a method for finding its length - using  [Dijkstra's algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm), a method which saves this graph to a given file name and a method which loads a graph to this graph algorithm.
 
 ## Tests
 It includes 2 JUNIT tests :
@@ -41,4 +41,6 @@ It includes 2 JUNIT tests :
  -  WGraph_DSTest - for testing class WGraph_DS algorithms.
  -  WGraph_AlgoTest - for testing class WGraph_Algo algorithms. 
  
-#### An example of an undirected weighted graph :
+#### An example of an undirected weighted graph:
+
+![An example of graph](https://github.com/LielVaknin/Java-OOP/blob/master/src/ex1/Images/Undirected%20weighted%20graph%20example.png?raw=true)
